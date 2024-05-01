@@ -8,7 +8,7 @@ const findMissingNumber = (arr) => {
     const missingNumber = [];
     for(let i = min; i <= max; i++) {
         if(!arr.includes(i)) { // Checking whether i(current value) present in arr(argument)
-            missingNumber.push(i) // Adding numbers whcih are not in arr(argument) array
+            missingNumber.push(i) // Adding numbers which are not in arr(argument) array
         }
     }
     return missingNumber;
