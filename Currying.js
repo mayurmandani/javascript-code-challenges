@@ -7,6 +7,7 @@
 
 console.log(sum(10,5,1)); */
 
+// using the javascript arrow function
 function sum(a) {
     return (b) => {
             return (c) => {
@@ -16,3 +17,15 @@ function sum(a) {
 }
 
 console.log(sum(10)(5)(1));
+
+// using the normal javascript function
+
+function multiply(x) {
+    return function(y) {
+        return function(z) {
+            return x * y * z;
+        }
+    }
+}
+
+console.log(multiply(2)(3)(4));
