@@ -6,7 +6,7 @@
 
 const stringOccurance = (str) => {
      if(str.length === 0) {
-        return "Sting should not be Emplty";
+        return "Sting should not be Empty";
      }
      if(typeof str !== 'string') {
         return "its should be string";
