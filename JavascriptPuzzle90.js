@@ -11,7 +11,7 @@ let friends = [{name: 'sanjay', books:['harry potter'], age:21},
 
 function unique(arr) {
     let bookArr = [...arr];
-    let booksList = bookArr.map((items) => items.books);
+    let booksList = bookArr.map(items => items.books);
     let bookCollection = booksList.flat(1);
     let output = [...new Set(bookCollection)];
     return output;
