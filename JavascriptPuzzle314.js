@@ -66,17 +66,17 @@ class LinkedList {
 
 const list = new LinkedList();
 
-console.log('List is empty? ', list.isEmpty());
-console.log('List size', list.getSize());
+console.log('List is empty? ', list.isEmpty());  // true
+console.log('List size', list.getSize());  // 0
 
-list.print()
+list.print()  //  List is empty
 
 list.append(10)
-list.print()
+list.print()  // 10
 
 list.append(20)
 list.append(30)
 
-list.print()
+list.print() // 10 20 30
 
 
