@@ -1,6 +1,5 @@
 /* Write a function moveZeros which takes array and return moved zero to last in array */
 
-
 const arr = [0,1,0,3,12];
 
 function moveZeros(arr) {
