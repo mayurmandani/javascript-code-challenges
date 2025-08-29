@@ -1,4 +1,4 @@
-/* Write a Debounce Function */
+/* Write a Debounce Function - Debouncing delays execution until a pause happens. */
 
 function debounce(func, delay) {
   let timer;
