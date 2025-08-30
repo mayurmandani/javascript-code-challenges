@@ -1,4 +1,5 @@
-/* Throttle Function - */
+/* Throttle Function - It ensures that the wrapped function is called at most once within a specified time interval, 
+regardless of how many times the event triggering it occurs.*/
 
 function throttle(func, limit) {
   let inThrottle;
